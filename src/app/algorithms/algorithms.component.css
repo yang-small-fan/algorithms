@@ -1,0 +1,17 @@
+.algorithms {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.algorithms-left {
+    margin: 5px;
+    width: 20rem;
+    border: 1px solid;
+}
+
+.algorithms-rigth {
+    margin: 5px;
+    width: 100%;
+    border: 1px solid;
+}

@@ -1,0 +1,12 @@
+<div class="algorithms">
+    <div class="algorithms-left">
+        <ul>
+            <li [routerLink]="[session.path]" *ngFor="let session of sessions">
+                {{session.title}}
+            </li>
+        </ul>
+    </div>
+    <div class="algorithms-rigth">
+        <router-outlet></router-outlet>
+    </div>
+</div>
