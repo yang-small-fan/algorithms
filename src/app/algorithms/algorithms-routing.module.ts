@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { AlgorithmsComponent } from './algorithms.component';
 import { SessionOneComponent } from './session-one/session-one.component';
+import { SessionTwoComponent } from './session-two/session-two.component';
 
 
 const routes: Routes = [
@@ -12,6 +13,10 @@ const routes: Routes = [
       {
         path: 'session-one',
         component: SessionOneComponent,
+      },
+      {
+        path: 'session-two',
+        component: SessionTwoComponent,
       }
     ]
   }];
