@@ -4,12 +4,17 @@ import { CommonModule } from '@angular/common';
 import { AlgorithmsRoutingModule } from './algorithms-routing.module';
 import { SessionOneComponent } from './session-one/session-one.component';
 import { AlgorithmsComponent } from './algorithms.component';
-import { BrowserModule } from '@angular/platform-browser';
 import { SessionTwoComponent } from './session-two/session-two.component';
+import { SessionThreeComponent } from './session-three/session-three.component';
 
 
 @NgModule({
-  declarations: [AlgorithmsComponent, SessionOneComponent, SessionTwoComponent],
+  declarations: [
+    AlgorithmsComponent,
+    SessionOneComponent,
+    SessionTwoComponent,
+    SessionThreeComponent
+  ],
   imports: [
     CommonModule,
     AlgorithmsRoutingModule
