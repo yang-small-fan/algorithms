@@ -13,6 +13,7 @@ export class AlgorithmsComponent implements OnInit {
     { title: 'session-one', path: 'session-one' },
     { title: 'session-two', path: 'session-two' },
     { title: 'session-three', path: 'session-three' },
+    { title: 'session-four', path: 'session-four' },
   ];
 
   ngOnInit(): void {

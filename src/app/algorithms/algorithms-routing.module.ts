@@ -4,6 +4,7 @@ import { AlgorithmsComponent } from './algorithms.component';
 import { SessionOneComponent } from './session-one/session-one.component';
 import { SessionTwoComponent } from './session-two/session-two.component';
 import { SessionThreeComponent } from './session-three/session-three.component';
+import { SessionFourComponent } from './session-four/session-four.component';
 
 
 const routes: Routes = [
@@ -22,6 +23,10 @@ const routes: Routes = [
       {
         path: 'session-three',
         component: SessionThreeComponent,
+      },
+      {
+        path: 'session-four',
+        component: SessionFourComponent,
       }
     ]
   }];

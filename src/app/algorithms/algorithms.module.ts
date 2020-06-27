@@ -6,6 +6,7 @@ import { SessionOneComponent } from './session-one/session-one.component';
 import { AlgorithmsComponent } from './algorithms.component';
 import { SessionTwoComponent } from './session-two/session-two.component';
 import { SessionThreeComponent } from './session-three/session-three.component';
+import { SessionFourComponent } from './session-four/session-four.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { SessionThreeComponent } from './session-three/session-three.component';
     AlgorithmsComponent,
     SessionOneComponent,
     SessionTwoComponent,
-    SessionThreeComponent
+    SessionThreeComponent,
+    SessionFourComponent
   ],
   imports: [
     CommonModule,
