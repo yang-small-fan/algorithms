@@ -1,2 +1,2 @@
 # algorithms
-Personal algorithm accumulation using typescript.  
+Personal algorithm accumulation using typescript.
